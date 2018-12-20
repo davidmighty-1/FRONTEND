@@ -1,0 +1,342 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px){
+/*------HEADER------*/
+    header{
+        width: 100%;
+    }
+    .jumbotron{
+        width: 100%;
+        height: auto;
+    }
+/*------SECTION-TRACK------*/
+    .soon{
+        margin-left: 260px;
+    }
+/*------SECTION-FEATURES------*/
+    ._features{
+        margin-top: 55px;
+    }
+}
+
+/* Small phones to small tablets: from 991px to 1199px*/
+@media only screen and (max-width: 1199px){
+/*------SECTION-TRACK------*/
+    .soon{
+        margin-left: 200px;
+    }
+/*------SECTION-FEATURES------*/
+    ._features{
+        margin-top:35px;
+    }
+
+    .main-text{
+        margin-bottom: 10px;
+    }
+
+    .main-text h2{
+        font-size: 25px;
+    }
+    .long-copy{
+        font-size:18px;
+    }
+  
+    .main-text a{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+     h4{
+        font-size: 20px;
+    }
+    
+/*------SECTION-LISTING------*/
+    .call-to-action{
+        width: 65%;
+        padding-top: 130px;
+    }
+    .call-to-action h1{
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .call-to-action p{
+        margin-top:0px;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+/*------FOOTER------*/
+    .letter{
+        width:50%;
+    }
+}
+
+/* Small phones to small tablets: from 768px to 991px*/
+@media only screen and (max-width: 991px){
+/*------HEADER------*/
+    header{
+        width: 100%;
+    }
+    .jumbotron{
+        width: 100%;
+        height: auto;
+    }
+    .text-whyte{
+        font-size: 30px;
+    }
+/*------SECTION-TRACK------*/
+    h3{
+        text-align: center;
+    }
+    .media p{
+        font-size: 18px; 
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+    .soon{
+        margin-left:0;
+    }
+/*------SECTION-FEATURES------*/
+    ._features{
+        margin-top:50px;
+    }
+    .main-text{
+        margin-bottom: 18px;
+    }
+    .main-text h2{
+        font-size: 20px;
+    }
+    .main-text a{
+        font-size: 12px;
+    }
+    .long-copy{
+        font-size:12px;
+    }
+     h4{
+        font-size: 18px;
+    }
+    .feat p{
+        text-align: center;
+        font-size: 12px;
+    }
+/*------SECTION-AMBASSADOR------*/
+    .ambassador h2{
+        font-size: 25px;
+    }
+/*------SECTION-LISTING------*/
+    .listing h1{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .call-to-action{
+        width: 70%;
+        padding-top: 100px;
+    }
+/*------FOOTER------*/
+    .letter{
+        width:100%;
+    }
+}
+
+
+/* Small phones to small tablets: from 576px to 767px*/
+@media only screen and (max-width: 767px){
+/*------HEADER------*/
+    header{
+        width: 100%;
+    }
+    .jumbotron{
+        width: 100%;
+        height: auto;
+    }
+    .hero-box{
+        margin-left: 16%;
+    }
+    .area{
+        width:100%;
+    }
+    .text-whyte{
+        font-size:25px;
+    }
+    .main{
+        width: 100%;
+    }
+    .hero-box p{
+        font-size: 20px;
+    }
+/*------SECTION-FEATURES------*/
+    ._features{
+        margin-top:30px;
+    }
+/*------SECTION-AMBASSADOR------*/
+    .ambassador h2{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .ambassador p{
+        text-align: center;
+    }
+    .ambassador button{
+        margin-left: 110px;
+    }
+/*------SECTION-LISTING------*/
+    .listing h1{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .call-to-action{
+        width: 70%;
+        padding-top: 130px;
+    }
+    .socials p{
+        padding-left: 17px;
+    }
+    .socials ul{
+        padding-left: 10px;
+    }
+    .social_media{
+        margin-right: 10px;
+    }
+}
+
+/* Small phones: from 0 to 575px */
+@media only screen and (max-width: 575px){
+/*------HEADER------*/
+    .jumbotron{
+        height: 80vh;
+    }
+    .logo{
+        width: 80px;
+    }
+    .hero-box{
+    margin-top: 100px;
+        padding: 0px;
+    }
+    .text-whyte{
+        font-size: 18px;
+    }
+    .input-group-prepend{
+        height:20px;
+    }
+    .input-group-text{
+        font-size: 10px;
+    }
+    .form-control{
+        height: 20px;
+        font-size: 10px;
+    }
+    .main p{
+        font-size: 10px;
+    }
+/*------SECTION-TRACK------*/
+    .track h3{
+        font-size: 20px;
+    }
+    .media p{
+        font-size: 13px;
+        padding-top: 40px;
+    }
+    .add{
+        font-size:12px;
+        margin-bottom: 5px;
+    }
+    .soon a{
+        font-size:12px;
+    }
+/*------SECTION-FEATURES------*/
+    .features{
+        height: 75vh;
+    }
+    ._features{
+        margin-top:10px;
+    }
+    .main-text{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .main-text h2{
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+    
+    .long-copy{
+        font-size:10px;
+        margin-bottom: 5px;
+    }
+  
+    .main-text a{
+        font-size: 10px;
+    }
+    
+     h4{
+        font-size: 12px;
+         margin-bottom: 5px;
+    }
+    .feat p{
+        font-size: 10px;
+        margin-bottom: 7px;
+    }
+/*------SECTION-AMBASSADOR------*/
+    .ambassador{
+        padding:50px;
+    }
+    .advertize{
+        width: 300px;
+    }
+    .advertize h2{
+        font-size: 18px;
+        text-align: center;
+    }
+    .advertize{
+        font-size: 10px;
+    }
+    .ambassador button{
+        font-size: 10px;
+        width: 100px;
+        margin-left: 70px;
+    }
+/*------SECTION-LISTING------*/
+    .listing{
+        height: 60vh;
+    }
+    .listing_img{
+        width: 60px;
+        height: auto;
+    }
+    .call-to-action{
+        padding-top: 55px;
+    }
+    .call-to-action h1{
+        font-size: 20px;
+    }
+    .call-to-action p{
+        font-size: 12px;
+    }
+    .call-to-action button{
+        width: 100px;
+        font-size: 10px;
+    }
+/*------FOOTER------*/
+    .contact_us h4{
+        font-size: 12px;
+    }
+    .contact_us p, .contact_us a, .socials p, .socials a{
+        font-size: 10px;
+    }
+    .input-group-append{
+        height:10px;
+    }
+    .socials ul{
+        margin-bottom: 5px;
+    }
+/*
+    .contact_us a{
+        font-size: 10px;
+    }
+    .socials p{
+        font-size: 10px;
+    }
+    .socials a {
+        font-size: 10px;
+    }
+*/
+}
+

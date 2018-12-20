@@ -1,0 +1,462 @@
+.row{
+    margin:0;
+}
+.container-fluid{
+    padding: 0px;
+}
+/*---------- IMG ----------*/
+img{
+    width: 100%;
+}
+/*---------- HEADER ----------*/
+.jumbotron{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(ficus-3718935_1920.jpg);
+    background-size:cover;
+    background-position:center;
+    height: 100vh;
+}
+/*---------- TEST ----------*/
+.test{
+    display: none;
+}
+/*---------- NAV ----------*/
+.logo{
+    width:140px;
+}
+nav{
+    font-size: 15px;
+    width: 100%;
+}
+.nav-link{
+    margin-right: 10px;
+}
+.sign-up{
+    margin-right: 10px;
+    padding:5px 25px;
+    background-color:transparent;
+    border: 1px solid white;
+    border-radius: 0px;
+    color: white;
+}
+.sign-up:hover{
+    background-color: white;
+    color: black;
+}
+/*HERO-BOX*/
+.hero-box{
+    margin-top: 250px;
+    margin-left:20%;
+}
+.main{
+    width: 100%;
+}
+.text-whyte{
+    font-family: Open Sans;
+    width: 100%;
+    font-size:35px;
+    font-weight:bold;
+}
+.area{
+    width: 75%;
+}
+.main p{
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight:light;
+}
+/*---------- SECTION TRACK ----------*/
+.track{
+    margin-bottom: 70px;
+}
+h3{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.media p{
+    padding-top: 30px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.add{
+    margin-top: 2px;
+    font-size: 14px;
+}
+.soon{
+    margin-left: 255px;   
+    margin-top: 2px;
+    
+}
+.soon a{
+    font-size: 14px;
+    text-align: center;
+    border-radius:5px;
+    text-decoration: none;
+}
+
+/*---------- SECTION FEATURES ----------*/
+.features{
+    background-image: url(map2b52.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 80vh;
+}
+._features{
+    margin-top: 100px;
+    text-align: center;
+}
+.main-text{
+    font-family: Open sans;
+    margin-bottom: 50px;
+}
+.long-copy{
+    color:#151515;
+    font-size: 20px;
+}
+h2{
+    font-weight: bold;
+    color:#151515;
+}
+h4{
+    color:#080707;
+}
+/*---------- SECTION-AMBASSADOR ----------*/
+.ambassador{
+    padding: 100px;
+}
+.advertize{
+    margin: 0 auto;
+}
+.ambass{
+    border: 0px;
+}
+/*---------- SECTION-LISTING ----------*/
+.listing{
+    background-image: url(padi_banner1d3b.png);
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+.call-to-action{
+    margin: 0 auto;
+    padding-top: 160px;
+}
+.call-to-action h1{
+    font-size: 35px;
+}
+.call-to-action p{
+    margin-top:0px;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.listing_img{
+    width: 100px;
+    height: 100px;
+}
+/*-------------------------------------------------*/
+/*--------------- CONTACT-PAGE -------------------*/
+/*-------------------------------------------------*/
+/*---------- HEADER ----------*/
+.contact-nav{
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.contact-logo{
+    margin-left: 40px;
+    width: 120px;
+}
+.contact-nav ul{
+    margin-top: 20px;
+    margin-right: 50px;
+/*    margin-bottom: 20px;*/
+}
+.contact-nav a{
+    color:#6f6e6e;
+    font-weight: 650;
+}
+.contact-nav a:hover{
+    color:#2c2c2c;
+}
+.form-inline{
+    margin-top:10px;
+    
+}
+/*---------- SECTION-BANNER -----------*/
+.banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(app-apple-chat-46924.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    height: 70vh;
+    margin-top: 100px;
+    font-family: Open+Sans;
+}
+.get_in{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.get_in h1{
+    font-weight:450;
+    font-size: 50px;
+    padding-top:120px;
+    margin-bottom: 30px;
+}
+.get_in p{
+    font-size: 25px;
+}
+/*---------- SECTION-CONTACT ----------*/
+.big_container{
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+.card{
+    box-shadow: 10px 10px 20px #02524f;
+    color: #f5f5f5;
+    background-image: url(padi_banner1d3b.png);
+    border: 1px solid black;    
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+/*---------- SECTION-CONNECT_ ----------*/
+.connect_{
+    background-image: url(contact-cover1dc52.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;    
+}
+.connect_ h1{
+    font-weight: 500;
+    font-size: 45px;
+    margin-left: 110px;
+    padding-top: 45px;
+    color: #f5f5f5;
+}
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+/*-------------------------------------------------*/
+/*--------------- FORGOTPASSWORD-PAGE -------------*/
+/*-------------------------------------------------*/
+.reset{
+    width: 40%;
+    margin: 0 auto;
+}
+.reset h5, .reset p{
+    text-align: center;
+}
+.reset img{
+    margin-top: 40%;
+    margin-left: 32%;
+}
+.reset h5{
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color:#3c3c3c;
+}
+.reset p{
+    color: #909090;
+}
+.reset button{
+    margin-top: 10px;
+    width: 100%;
+}
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+/*-------------------------------------------------*/
+/*--------------- LIST-HOSTEL-PAGE ----------------*/
+/*-------------------------------------------------*/
+.start{
+    width: 75%;
+    margin-top:330px;
+    text-align: center;
+}
+.start h1{
+    font-size: 55px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+._package{
+    margin-top: 73px;
+    text-align: center;
+    color: #151515;
+}
+.pkg h5{
+    color:#080707;
+}
+.how_it_works{
+    margin-top: 73px;
+    text-align: center;
+    color: #151515;
+}
+.freq button{
+    margin-left: 500px;
+}
+.quest{
+    padding-top: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.freq h2{
+    font-weight: 500;
+    color:#080707;
+}
+.freq button{
+    margin-top: 30px;
+}
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+/*-------------------------------------------------*/
+/*--------------- AMBASSADOR-PAGE -----------------*/
+/*-------------------------------------------------*/
+.embassy{
+    margin-top: 300px;
+    margin-left: 150px;
+}
+.embassy h1{
+    font-size: 55px;
+    font-weight: 400;
+}
+.embassy p{
+    font-size:25px;
+    color: #f5f5f5;
+}
+.tag{
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+.tag h4{
+    font-size: 30px;
+    font-weight: bold;
+    color: #292929;
+}
+.tag button{
+    width: 100%;
+    margin-top: 10px;
+}
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+/*-------------------------------------------------*/
+/*--------------- LOGIN-PAGE -----------------*/
+/*-------------------------------------------------*/
+.bkgrnd{
+    background-image: url(login-bg746a.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    padding-top: 100px;
+}
+.calm{
+    width: 30%!important;
+}
+.registry{
+    margin-top: 35px;
+} 
+.registry input{
+    margin-bottom: 25px;
+}
+.registry button{
+    width: 100%;
+}
+.reg{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.reg:last-child{
+    margin-bottom: 40px;
+}
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+/*-------------------------------------------------*/
+/*--------------- REGISTER-PAGE -------------------*/
+/*-------------------------------------------------*/
+.bkgrnd_{
+    background-image: url(login-bg746a.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    padding-top: 100px;
+}
+.login{
+    width: 35%;
+    text-align: center;
+    margin-left: 35%; 
+}
+.login img{
+   margin-top: 15px; 
+}
+.login .fill{
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+.register input{
+    margin-bottom: 30px;
+}
+
+.date input{
+    width: 65px;
+    display: inline;
+}
+.log, .fcbk, .goog{
+    width: 95%;
+}
+.fcbk{
+    margin-bottom: 15px;
+}
+.log{
+    margin-bottom: 25px;
+}
+.goog{
+    margin-bottom: 30px;
+}
+.login p{
+    font-weight: 500;
+} 
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+/*---------- FOOTER ----------*/
+footer{
+    padding-top: 50px;
+    height: auto;
+}
+.contact_us{
+    width: 100%;
+    margin: 0 auto;
+}
+.contact_us ul{
+    padding: 0;
+}
+.contact_us li{
+    list-style: none;
+    text-align: left;
+}
+.contact_us a{
+    color: gray;
+    text-decoration: none;
+}
+.socials li{
+    display: inline-block;
+    padding-left: 10px;
+}
+.socials a{
+    color: gray;
+}

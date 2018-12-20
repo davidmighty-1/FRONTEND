@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Video Player</title>
+    <link rel="stylesheet" type="text/css" href="css/videoplayer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+    
+<body>
+    <div class="player">
+        
+        <!--VIDEO-->
+        <div class="c-video">
+        <video class="player__video viewer" src="video/Overwatch_%20Origins%20Edition_20160920032242.mp4">
+            Your browser doesn't support the video tag.
+        </video>
+        
+        
+        <!--CONTROLS-->    
+        <div class="player__controls">
+            <!--PROGRESS BAR-->
+            <div class="progress">
+            <div class="progress__fill"></div>
+            </div>
+            
+            <!--CONTROLS-->
+       <div class="controls">
+        <!--SHUFFLE BUTTON-->
+           <button class="btn-shuffle"><span class="fas fa-random"></span></button>
+        <!--REPEAT BUTTON-->
+           <button class="btn-repeat"><span class="fas fa-redo-alt"></span></button>
+        <!--STOP BUTTON-->
+           <button class="btn-stop"><span class="fa fa-stop"></span></button>
+        <!--REWIND BUTTON--> 
+           <button data-skip='-10' class="btn-backward"><span class="fa fa-backward"></span></button>
+        <!--PLAY/STOP BUTTON-->
+           <button class="btn-play toggle"><span class="fa fa-play"></span></button>
+        <!--FAST-FORWARD BUTTON-->
+           <button data-skip='25' class="btn-forward"><span class="fa fa-forward"></span></button>
+        <!--VOLUME/MUTE-->
+           <button class="btn-mute"><span class="fas fa-volume-mute"></span></button>
+        <!--VOLUME SLIDER-->
+           <div class="volume_slidecontainer">
+            <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+           </div>
+       </div>
+
+            <!--REWIND BUTTON--
+            <button data-skip='-10' class="btn btn-backward"><span class="fa fa-backward"></span></button>
+            <!--PLAY BUTTON--
+            <button class="btn btn-play toggle"><span class="fa fa-play"></span></button>
+            <!--FAST-FORWARD BUTTON--
+            <button data-skip='25' class="btn btn-forward"><span class="fa fa-forward"></span></button>
+            <!--STOP BUTTON--
+            <button class="btn btn-stop"><span class="fa fa-stop"></span></button>
+
+<!--        <button class="btn btn-reset" hidden><span class="fa fa-undo"></span></button>-->
+            
+            <!--MUTE BUTTON--
+            <button class="btn btn-mute"><span class="fa fa-volume-off"></span></button>
+            <!--EXPAND BUTTON--
+            <button class="btn btn-expand"><span class="fa fa-expand"></span></button>
+-->
+        </div>
+
+        </div>
+    </div>
+    <script src="js/videoplayer.js"></script>
+</body>
+</html>

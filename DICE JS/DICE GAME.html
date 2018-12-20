@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="css/dice.css">
+        <title>Pig Game</title>
+    </head>
+
+    <body>
+        <div class="container-fix wrap">
+            <div class="game-box">
+                <div class="player-panel0 active">
+                    <h1 class="player-name" id="name-0">PLAYER 1</h1>
+                    <p class="player-score" id="score-0">14</p>
+                    <div class="player-current-box">
+                        <p class="player-current-label">CURRENT</p>
+                        <p class="player-current-score" id="current-0">11</p>
+                    </div>
+                </div>
+                <div class="player-panel1">
+                    <h1 class="player-name" id="name-1">PLAYER 2</h1>
+                    <p class="player-score" id="score-1">26</p>
+                    <div class="player-current-box">
+                        <p class="player-current-label">CURRENT</p>
+                        <p class="player-current-score" id="current-1">0</p>
+                    </div>
+                </div>
+                
+                <form class="form-inline">
+                    <label for='number'>FINAL SCORE:</label>
+                    <input type="number" class="form-control" id="number">
+                    
+                </form>
+                
+                <button class="btn-new">NEW GAME</button>
+                <button class="btn-roll">ROLL DICE</button>
+                <button class="btn-hold">HOLD</button>
+                
+                <img src="img/dice-5.png" alt="DICE" class="dice">
+            </div>
+        </div>    
+        <script src="js/dice.js"></script>
+    </body>
+</html> 

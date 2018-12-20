@@ -1,0 +1,123 @@
+/*----------------GENERAL----------------*/
+.wrap{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("back.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    padding-top: 15px;
+    padding-left: 100px;
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    color: #555;
+}
+
+.game-box{
+    background-color: #fff;
+    overflow:hidden;
+    position: absolute;
+    width: 85%;
+}
+.player-panel0,.player-panel1{
+    float: left;
+    width: 50%;
+    height: 600px;
+}
+/*
+.player-panel1{
+    background-color:#eaeaea;
+}
+*/
+/**********************************************
+*** PLAYERS
+**********************************************/
+.player-name{
+    text-align: center;
+    margin-top: 135px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    position: relative;
+}
+.player-score{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 100;
+    color: #EB4D4D;
+    margin-bottom: 90px;
+}
+.active { background-color: #eaeaea; }
+.active .player-name { font-weight: 720; }
+
+.active .player-name::after{
+    content: "\2022";
+    color: #EB4D4D;
+    font-size: 47px;
+    position: absolute;
+    right: 150px;
+    top: -7px;
+}
+.player-current-box{
+    background-color: #EB4D4D;
+    width: 22%;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+    color: #fff;
+}
+.player-current-label{
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #222;
+}
+.player-current-score {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+form{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+label{
+    padding-right: 10px;
+}
+
+button{
+    position: absolute;
+    width: 200px;
+    left:585px;
+    color: #555;
+    background-color: transparent;
+    transform: translateX(-50%);
+    font-family: Lato;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+    border: none;
+}
+
+button:hover{ font-weight: 600; }
+button:focus{ outline: none; }
+
+.btn-new { margin-top: 85px;}
+.btn-roll { margin-top: 403px;}
+.btn-hold { margin-top: 467px;}
+
+.btn-submit{
+    left: 385px !important;
+    width: 100px !important;
+}
+
+.dice{
+    position: absolute;
+    height: 100px;
+    left: 50%;
+    top: 178px;
+    transform: translateX(-50%);
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+
+.winner { background-color: #eaeaea; }
+.winner .player-name { font-weight: 300; color: #EB4D4D; }

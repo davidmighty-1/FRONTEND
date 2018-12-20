@@ -1,0 +1,215 @@
+.player {
+/*
+  position: relative;
+  overflow: hidden;
+  max-width: 480px;
+*/
+    display: flex;
+    background: #ccc;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.c-video{
+    width: 100%;
+    max-width: 700px;
+    position: absolute;
+    height: 393px;
+    overflow:hidden;
+/*    background: red;*/
+}
+
+
+video {
+/*
+  display: block;
+  width: 100px;
+  max-width: 100%;
+  height: auto;
+*/
+    width: 100%;  
+    position: relative;
+}
+
+.player__controls{
+    margin: 0;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.7);
+    transform: translateY(100%) translateY(-4px);
+    transition: bottom 0.8s;
+    height: auto;
+}
+
+/*.player:focus video + .player__controls,*/
+.c-video:hover .player__controls {
+  bottom: 35px;
+  z-index: 2;
+}
+
+/********* TEST **************/
+.controls{
+        display:inline-block;
+        background-color: #404040;
+        height: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+/*        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;*/
+        border-radius: 30px 30px 30px 30px;
+        width: 500px;
+        margin-top: 2px;
+        margin-bottom: 5px;
+        margin-left: 70px;
+    }
+
+button{
+        background-color: #404040;
+        border: none;
+        outline: none;
+        opacity: 0.7;
+        cursor: pointer;
+        transition: background-color 0.3s, opacity 0.2s;
+    }
+button:hover{
+/*        border: 1px solid #4141f8;*/
+        background-color: #4141f8;
+        opacity: 1;
+    }
+
+span{
+        font-size: 14px;
+        text-align: center;
+        color: white;
+    }
+/*
+    .expand{
+        display:inline;
+        margin-left: 420px;
+        background-color: #080808;
+    }
+*/
+.btn-shuffle, .btn-repeat, .btn-stop{
+        margin-right: 15px;
+    }
+
+.btn-play, .btn-forward, .btn-backward{
+        width: 25px;
+    }
+
+.btn-forward, .btn-backward{
+        height: 25px;
+        border: 1px solid #5a5959;
+        padding-right: 20px;
+    }
+
+.btn-shuffle{
+        margin-left: 55px;
+    }
+
+.btn-play{
+        background-color: #1818ce;
+        height: 25px;
+        border-radius: 100%;
+        border:none;
+        padding-left: 7px;
+    }
+
+.btn-forward{
+        border-bottom-right-radius: 35%;
+        border-top-right-radius: 35%;
+    }
+
+.btn-backward{
+        border-bottom-left-radius: 35%;
+        border-top-left-radius: 35%;
+    }
+
+.btn-mute{
+        margin-left: 15px;
+    }
+
+.volume_slidecontainer{
+/*        width: 100%;*/
+        display: inline;
+    }
+
+.slider{
+        -webkit-appearance: none;
+        border-radius: 5px 5px;
+        width: 20%;
+        height: 6px;
+        background: #d3d3d3; 
+        outline: none;
+        opacity: 0.7;
+        transition: opacity .2s;
+        margin-left: 15px;
+    }
+    
+.slider:hover {
+    opacity: 1;
+    }
+    
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    background: #1818ce; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 100%;
+}
+
+/*******************************/
+
+/*
+.btn {
+    
+  padding: 5px 5px;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  transition: opacity .175s ease-in;
+}
+
+.btn:focus{
+    outline: 0;
+}
+
+.btn:hover{
+    opacity: 0.5;   
+}
+*/
+
+.progress{
+    height: 4px;
+    width: 100%;
+    background-color: black;
+/*    margin-top: 335px;*/
+/*    margin-bottom: 30px;*/
+}
+.progress:hover{
+    cursor: pointer;
+    height: 6px;
+}
+.progress:hover .progress__fill{
+    cursor: pointer;
+    height: 6px;
+}
+.progress__fill {
+  width: 0;
+  height: 4px;
+  background-color: #e74c3c;
+  transition: width .35s linear;
+/*  margin-top: 360px;*/
+}
